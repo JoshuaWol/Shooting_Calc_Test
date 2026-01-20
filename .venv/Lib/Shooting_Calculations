@@ -7,7 +7,7 @@ import time
 
 #constants
 #Coord system = cartesian is Z=height, x=radial, y = tangential relative to hub, spherical is radial from robot to goal
-vi= 15.7 #m/s
+vi= 16.7 #m/s
 theta_i = 60 *3.1415/180 #deg -> rad
 phi_i = 0 *3.14159/180 # deg -> rad
 m = 0.475 /2.205 #lb -> kg  [0.448 - 0.5]
@@ -27,8 +27,8 @@ x_goal_radius = 20.85 * 1/12/3.281 #in to m using inscribed circle
 Cd = 0.47 #drag coeff sphere in 10^4 - 10^5 reynolds num
 g = -9.81 #m/s^2
 
-#error values in std using ranges (assumed to be gaussian)
-err_vi = 0.1 * vi /3 #range of intial velocity ~10%
+#ERROR values in std using ranges (assumed to be gaussian)
+err_vi = (0.1 * vi) /3 #range of intial velocity ~10%
 err_phi = 2 * 3.14159/180/3  #deg -> rad
 err_theta = 1 * 3.14159/180/3  #deg -> rad
 
@@ -79,7 +79,8 @@ if np.max(x)<x_goal:
     quit
 
 x_dist = [[x[i],theta_list[i]] for i in range(N)]
-theta_target = x_dist[np.abs(x-x_goal).argmin()][1]
+x_target_list = np.array(list(x))
+
 
 
 
@@ -87,12 +88,18 @@ theta_target = x_dist[np.abs(x-x_goal).argmin()][1]
 
 #intialization equations
 start = time.perf_counter()
-for i in range(np.linspace(0.5,10,0.25)):
-    x_goal = i
+distances_to_calc = np.linspace(0.5,10,int((10-0.5)/0.25+1))
+perc_score = []
+scatter_record_x = []
+scatter_record_y = []
+
+for i in range(len(distances_to_calc)):
+    x_goal = distances_to_calc[i]
     N = 1000
     dt_val = 1e-2
     dt = np.array([dt_val for i in range(N)]) #s
     rng = np.random.default_rng(488)
+    theta_target = x_dist[np.abs(x_target_list - x_goal).argmin()][1]
 
     t = 0
     z=[zi for i in range(N)]
@@ -133,41 +140,57 @@ for i in range(np.linspace(0.5,10,0.25)):
 
 
         dt[hit] = 0
+    score = np.sqrt((x_goal - x) ** 2) < x_goal_radius
+    perc_score.append([ x_goal, np.count_nonzero(score)/np.size(score,0)])
+    scatter_record_x.append(x-x_goal)
+    scatter_record_y.append(y)
 
-    perc_score =
-
-if max(z)<0:
-    print(f"for dt = {dt} there was no solution found")
-end = time.perf_counter()
-print(f"it took {end-start} seconds")
-
-#out put printing
-print(f"Theta_initial mean = {np.mean(theta_initial):.4f} and std = {np.std(theta_initial):.4f}")
-# print(f"For phi mean = {np.mean(phi)} and std = {np.std(phi)}")
-print(f"V_initial mean = {np.mean(vi):.4f} and std = {np.std(vi):.4f}")
-print(f"Distance mean = {np.mean(x):.4f} and std = {np.std(x):.4f}, max = {np.max(x):.4f}")
-
-score = np.sqrt((x_goal-x)**2) < x_goal_radius
-print(f"you scored {100*np.count_nonzero(score)/np.size(score,0):.2f}%")
-
-#output plotting
 plt.figure()
-plt.tricontourf(v_initial,theta_initial,x)
-plt.colorbar(label="Distance")
-plt.xlabel("Initial Velocity (m/s)")
-plt.ylabel("Intial Theta (Deg)")
-plt.title('Distance vs Initial Conditions')
-plt.scatter(v_initial, theta_initial, s=1, c="k")
+perc_score = np.array(perc_score)
+plt.scatter(perc_score[:,0],perc_score[:,1]*100)
 
 fig, ax = plt.subplots()
-ax.scatter(x, y)
-circ = Circle((x_goal, 0), x_goal_radius, fill=False, linewidth=2, edgecolor = 'red')  # add edgecolor=... if you want
+ax.scatter(scatter_record_x, scatter_record_y)
+circ = Circle((0, 0), x_goal_radius, fill=False, linewidth=2, edgecolor = 'red')  # add edgecolor=... if you want
 ax.add_patch(circ)
 ax.text(x_goal + x_goal_radius*0.9, x_goal_radius *0.9, "Goal", ha="center", va="center", color = 'red', size = 20 )
 ax.set_aspect('equal', adjustable='box')  # makes it look like a true circle
 ax.set_xlabel("X Distance (m)")
 ax.set_ylabel("Y Distance (m)")
 ax.set_title("Monte Carlo of Shots")
+
+# if max(z)<0:
+#     print(f"for dt = {dt} there was no solution found")
+# end = time.perf_counter()
+# print(f"it took {end-start} seconds")
+#
+# #out put printing
+# print(f"Theta_initial mean = {np.mean(theta_initial):.4f} and std = {np.std(theta_initial):.4f}")
+# # print(f"For phi mean = {np.mean(phi)} and std = {np.std(phi)}")
+# print(f"V_initial mean = {np.mean(vi):.4f} and std = {np.std(vi):.4f}")
+# print(f"Distance mean = {np.mean(x):.4f} and std = {np.std(x):.4f}, max = {np.max(x):.4f}")
+#
+# score = np.sqrt((x_goal-x)**2) < x_goal_radius
+# print(f"you scored {100*np.count_nonzero(score)/np.size(score,0):.2f}%")
+#
+# #output plotting
+# plt.figure()
+# plt.tricontourf(v_initial,theta_initial,x)
+# plt.colorbar(label="Distance")
+# plt.xlabel("Initial Velocity (m/s)")
+# plt.ylabel("Intial Theta (Deg)")
+# plt.title('Distance vs Initial Conditions')
+# plt.scatter(v_initial, theta_initial, s=1, c="k")
+#
+# fig, ax = plt.subplots()
+# ax.scatter(x, y)
+# circ = Circle((x_goal, 0), x_goal_radius, fill=False, linewidth=2, edgecolor = 'red')  # add edgecolor=... if you want
+# ax.add_patch(circ)
+# ax.text(x_goal + x_goal_radius*0.9, x_goal_radius *0.9, "Goal", ha="center", va="center", color = 'red', size = 20 )
+# ax.set_aspect('equal', adjustable='box')  # makes it look like a true circle
+# ax.set_xlabel("X Distance (m)")
+# ax.set_ylabel("Y Distance (m)")
+# ax.set_title("Monte Carlo of Shots")
 
 # plt.figure()
 # plt.scatter(theta_initial,x)
