@@ -7,9 +7,9 @@ import time
 
 #constants
 #Coord system = cartesian is Z=height, x=radial, y = tangential relative to hub, spherical is radial from robot to goal
-vi = 10 #m/s
-phi_i = 60 *3.1415/180 #deg -> rad
-theta_i = 0 *3.14159/180 # deg -> rad
+vi = 10.3 #m/s
+theta_i = 60 *3.1415/180 #deg -> rad
+phi_i = 0 *3.14159/180 # deg -> rad
 m = 0.475 /2.205 #lb -> kg  [0.448 - 0.5]
 ball_Diam = 5.91 *(1/12/3.281) #in -> m
 ball_radius = ball_Diam/2
@@ -30,40 +30,42 @@ dt = 10**-4
 
 #error values in std using ranges (assumed to be gaussian)
 err_vi = vi * 0.067/3 #range of intial velocity ~10%
-err_theta = 0.01 * 3.14159/180/3  #deg -> rad
-err_phi = 2 * 3.14159/180/3  #deg -> rad
+err_phi = 5 * 3.14159/180/3  #deg -> rad
+err_theta = 2 * 3.14159/180/3  #deg -> rad
 
-
+#intialization equations
 start = time.perf_counter()
 N = 5000
 dt = np.array([1e-3 for i in range(N)]) #s
 rng = np.random.default_rng(488)
+
 t = 0
 z=[zi for i in range(N)]
 x=0
 y=0
+
 vi = rng.normal(loc = vi, scale = err_vi, size=N)
+theta = rng.normal(loc = theta_i, scale = err_theta, size=N)
 phi = rng.normal(loc = phi_i, scale = err_phi, size=N)
-phi_initial = list(phi * 57.3) # rad->deg
-theta = rng.normal(loc = theta_i, scale = err_vi, size=N)
-v_x = vi *np.cos(phi)*np.cos(theta)
-v_z = vi * np.sin(phi)
-v_y = vi * np.cos(phi) * np.sin(theta)
+theta_initial = list(theta * 57.3) # rad->deg
+
+v_x = vi *np.cos(theta)*np.cos(phi)
+v_z = vi * np.sin(theta)
+v_y = vi * np.cos(theta) * np.sin(phi)
 v = np.sqrt(v_x**2 + v_z**2 + v_y**2)
-phi = phi_i
 
+#calculation loop
 alive = np.ones(N, dtype = bool)
-
 while (max(z) > zf or  max(v_z) >0) or max(z)<=0:
-    accel_x = -Cd * rho * x_Area * v ** 2 * np.cos(phi) * np.cos(theta) / m
-    accel_y = -Cd * rho * x_Area * v ** 2 * np.cos(phi) * np.sin(theta) / m
-    accel_z = g - Cd*rho*x_Area*v**2*np.sin(phi)/m
+    accel_x = -Cd * rho * x_Area * v ** 2 * np.cos(theta) * np.cos(phi) / m
+    accel_y = -Cd * rho * x_Area * v ** 2 * np.cos(theta) * np.sin(phi) / m
+    accel_z = g - Cd*rho*x_Area*v**2*np.sin(theta)/m
     v_x += accel_x * dt
     v_z += accel_z * dt
     v_y += accel_y * dt
     v = np.sqrt(v_x**2 + v_z**2 + v_y**2)
-    phi = np.arctan(v_z/np.sqrt(v_x**2+v_y**2))
-    theta = np.arctan(v_y/v_x)
+    theta = np.arctan(v_z/np.sqrt(v_x**2+v_y**2))
+    phi = np.arctan(v_y/v_x)
     z += v_z * dt
     x += v_x * dt
     y += v_y * dt
@@ -76,26 +78,26 @@ while (max(z) > zf or  max(v_z) >0) or max(z)<=0:
 
 if max(z)<0:
     print(f"for dt = {dt} there was no solution found")
-
-
 end = time.perf_counter()
 print((end-start))
 
-print(f"For Phi_initial mean = {np.mean(phi_initial)} and std = {np.std(phi_initial)}")
-print(f"For Theta mean = {np.mean(theta)} and std = {np.std(theta)}")
+#out put printing
+print(np.max(accel_x),np.max(accel_y))
+print(f"For theta_initial mean = {np.mean(theta_initial)} and std = {np.std(theta_initial)}")
+print(f"For phi mean = {np.mean(phi)} and std = {np.std(phi)}")
 print(f"For V_initial mean = {np.mean(vi)} and std = {np.std(vi)}")
 print(f"For Distance mean = {np.mean(x)} and std = {np.std(x)}")
 
 score = np.sqrt((x_goal-x)**2) < x_goal_radius
 print(f"you scored {100*np.count_nonzero(score)/np.size(score,0)}%")
 
-
+#output plotting
 plt.figure()
-plt.tricontourf(vi,phi_initial,x)
+plt.tricontourf(vi,theta_initial,x)
 plt.colorbar(label="distance")
 plt.xlabel("initial velocity")
-plt.ylabel("intial phi")
-plt.scatter(vi, phi_initial, s=1, c="k")
+plt.ylabel("intial theta")
+plt.scatter(vi, theta_initial, s=1, c="k")
 
 fig, ax = plt.subplots()
 ax.scatter(x, y)
