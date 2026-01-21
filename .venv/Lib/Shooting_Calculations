@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle
+import matplotlib.patches as patches
 import scipy
 import time
 
@@ -28,16 +29,16 @@ Cd = 0.47 #drag coeff sphere in 10^4 - 10^5 reynolds num
 g = -9.81 #m/s^2
 
 #ERROR values in std using ranges (assumed to be gaussian)
-err_vi = (0.1 * vi) /3 #range of intial velocity ~10%
-err_phi = 2 * 3.14159/180/3  #deg -> rad
-err_theta = 1 * 3.14159/180/3  #deg -> rad
+err_vi = (0.1 * vi) /3  #*0.0001 #range of intial velocity ~10%
+err_phi = 2 * 3.14159/180/3   #* 0.0001  #deg -> rad
+err_theta = 3 * 3.14159/180/3  #* 0.0001 #deg -> rad
 
 #Calculating the Theta Angles Results 0.1deg definition
 start_Angle = 25
 end_Angle = 90
 N = (end_Angle - start_Angle)*10 + 1
 theta = np.linspace(25*3.1415/180,90*3.1415/180,N)
-dt = np.array([1e-3 for i in range(N)])
+dt = np.array([1e-4 for i in range(N)])
 t = 0
 z=[zi for i in range(N)]
 x=0
@@ -88,10 +89,14 @@ x_target_list = np.array(list(x))
 
 #intialization equations
 start = time.perf_counter()
-distances_to_calc = np.linspace(0.5,10,int((10-0.5)/0.25+1))
+distances_to_calc = np.linspace(0.25,10,int((10-0.5)/0.25+1))
 perc_score = []
 scatter_record_x = []
 scatter_record_y = []
+score_record = []
+v_initial_record = []
+theta_initial_record = []
+phi_initial_record = []
 
 for i in range(len(distances_to_calc)):
     x_goal = distances_to_calc[i]
@@ -112,6 +117,9 @@ for i in range(len(distances_to_calc)):
     phi = rng.normal(loc = phi_i, scale = err_phi, size=N)
     theta_initial = list(theta * 57.3) # rad->deg
     v_initial = list(v)
+    v_initial_record.extend(v)
+    theta_initial_record.extend(theta)
+    phi_initial_record.extend(phi)
 
     v_x = v *np.cos(theta)*np.cos(phi)
     v_z = v * np.sin(theta)
@@ -141,6 +149,7 @@ for i in range(len(distances_to_calc)):
 
         dt[hit] = 0
     score = np.sqrt((x_goal - x) ** 2) < x_goal_radius
+    score_record.append(score)
     perc_score.append([ x_goal, np.count_nonzero(score)/np.size(score,0)])
     scatter_record_x.append(x-x_goal)
     scatter_record_y.append(y)
@@ -148,21 +157,123 @@ for i in range(len(distances_to_calc)):
 plt.figure()
 perc_score = np.array(perc_score)
 plt.scatter(perc_score[:,0],perc_score[:,1]*100)
+plt.ylabel('Chance to Score (%)')
+plt.xlabel('Distance to Hub (m)')
+plt.title('Success vs Distance')
+
+
+
+
 
 fig, ax = plt.subplots()
 ax.scatter(scatter_record_x, scatter_record_y)
 circ = Circle((0, 0), x_goal_radius, fill=False, linewidth=2, edgecolor = 'red')  # add edgecolor=... if you want
 ax.add_patch(circ)
-ax.text(x_goal + x_goal_radius*0.9, x_goal_radius *0.9, "Goal", ha="center", va="center", color = 'red', size = 20 )
+ax.text(x_goal_radius*0.9, x_goal_radius *0.9, "Goal", ha="center", va="center", color = 'red', size = 20 )
 ax.set_aspect('equal', adjustable='box')  # makes it look like a true circle
 ax.set_xlabel("X Distance (m)")
 ax.set_ylabel("Y Distance (m)")
 ax.set_title("Monte Carlo of Shots")
 
+
+# --- Dimensions (inches) ---
+W = 317.7   # overall width (x)
+D = 158.6   # overall depth (y)
+point_calc = 300
+
+radius_shoot = perc_score[:,0] * 3.28 * 12
+chance_score = perc_score[:,1]
+x_points_graph = np.linspace(0,W,point_calc)
+y_points_graph = np.linspace(0,D,point_calc)
+points = np.array([[i,j] for i in x_points_graph for j in y_points_graph])
+points_score_percent = []
+
+
+
+for each in points:
+    x = np.abs(each[0] - W/2)
+    y = each[1] + 47/2
+    radius_calc = np.sqrt(y**2 + x**2)
+    idmin = np.abs(radius_calc - radius_shoot).argmin()
+    if radius_calc > radius_shoot[idmin]:
+        left_id = idmin
+        right_id = idmin+1
+    else:
+        left_id = idmin-1
+        right_id = idmin
+    points_score_percent.append(100*(chance_score[left_id] + (chance_score[left_id] - chance_score[right_id])*(radius_calc-radius_shoot[left_id])/ (radius_shoot[left_id] -radius_shoot[right_id])))
+
+
+
+square_w = 47.0
+hex_across_flats = 41.7  # flat-to-flat distance
+R = hex_across_flats /(2* np.cos(np.pi / 6))  # circumradius
+cx = W / 2.0
+sq_left = cx - square_w / 2.0
+sq_top = 0.0
+sq_bottom = sq_top - square_w
+hex_center_y = sq_top - R
+angles = np.deg2rad([30, 90, 150, 210, 270, 330])
+hex_xy = np.column_stack([
+    cx + R * np.cos(angles),
+    hex_center_y + R * np.sin(angles)
+])
+
+# --- Plot ---
+fig, ax = plt.subplots()
+
+# cntr = ax.tricontourf(points[:,0],points[:,1],points_score_percent, levels = 256)
+# cbar = fig.colorbar(cntr, ax=ax)
+# cbar.set_label("Chance to Score")
+
+cntr = ax.tripcolor(points[:,0],points[:,1],points_score_percent,  shading="gouraud")
+cbar = fig.colorbar(cntr, ax=ax)
+cbar.set_label("Chance to Score")
+
+boundary = patches.Rectangle((0, 0), W, D, fill=False, linewidth=2)
+ax.add_patch(boundary)
+
+sq = patches.Rectangle((sq_left, sq_bottom), square_w, square_w, fill=True, linewidth=2, color = 'black')
+ax.add_patch(sq)
+
+# Hexagon
+hex_patch = patches.Polygon(hex_xy, closed=True, fill=True, linewidth=2, color = 'blue')
+ax.add_patch(hex_patch)
+
+# Labels / view
+ax.set_title("2D Contour Layout")
+ax.set_xlabel("Distance(x)")
+ax.set_ylabel("Distance (y)")
+ax.set_aspect("equal", adjustable="box")
+ax.set_xlim(-5, W + 5)
+ax.set_ylim(-50, D + 5)
+
+
+end = time.perf_counter()
+print(f"it took {end-start} seconds")
+
+v_initial_record = np.array(v_initial_record)
+theta_initial_record =np.array(theta_initial_record)
+phi_initial_record =np.array(phi_initial_record)
+X = np.column_stack([v_initial_record,theta_initial_record,phi_initial_record])
+print(v_initial_record.shape, theta_initial_record.shape, phi_initial_record.shape,X.shape)
+
+y = np.asarray(score_record).astype(int)
+X = np.asarray(X, dtype = float)
+
+cov_all = np.cov(X, rowvar=False)
+# cov_fail = np.cov(X[y == 0], rowvar=False)   # covariance among inputs when failing
+# cov_succ = np.cov(X[y == 1], rowvar=False)
+
+print(cov_all)
+
+
+
+
+
 # if max(z)<0:
 #     print(f"for dt = {dt} there was no solution found")
-# end = time.perf_counter()
-# print(f"it took {end-start} seconds")
+
 #
 # #out put printing
 # print(f"Theta_initial mean = {np.mean(theta_initial):.4f} and std = {np.std(theta_initial):.4f}")
