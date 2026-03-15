@@ -4,25 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21619954-a001-48d4-89a2-2b0838aec670" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TurretError.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="21619954-a001-48d4-89a2-2b0838aec670" name="Changes" comment="working on covariance and logistical coef">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.venv/Lib/Shooting_Calculations" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/Shooting_Calculations" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="bc9ec5806cfd91fd121e15f608fc99ba4195ed6a" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="38WrQZnpHLoK9J3SUA6LxFkjVE4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,16 +39,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Guess_Variables.executor": "Run",
+    "Python.Read_MOV_Time_per_Frame.executor": "Run",
+    "Python.Shooting_Angles.executor": "Run",
     "Python.Shooting_Calculations.executor": "Run",
+    "Python._pydev_execfile.executor": "Run",
+    "Python.calc_theta.executor": "Run",
+    "Python.chatgpt.executor": "Run",
+    "Python.chatgpt_monte.executor": "Run",
+    "Python.delta_saqib.executor": "Run",
+    "Python.delta_saqib_theta.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test_2.executor": "Run",
+    "Python.traj_saqib.executor": "Run",
+    "Python.traj_saqib_RPM.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Monte-Carlo",
     "last_opened_file_path": "C:/Users/Joshua Wolanyk/PycharmProjects/TurretError/.venv/Lib",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Joshua Wolanyk\PycharmProjects\TurretError\.venv\Lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Joshua Wolanyk\PycharmProjects\TurretError\.venv\Lib" />
+      <recent name="C:\Users\Joshua Wolanyk\PycharmProjects\TurretError" />
       <recent name="C:\Users\Joshua Wolanyk\PycharmProjects\TurretError\.venv" />
     </key>
   </component>
@@ -60,6 +85,84 @@
       <option name="presentableId" value="Default" />
       <updated>1768926152690</updated>
     </task>
+    <task id="LOCAL-00001" summary="Basic For Loop calculation no theta">
+      <option name="closed" value="true" />
+      <created>1768937310640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768937310640</updated>
+    </task>
+    <task id="LOCAL-00002" summary="testing spherical cahnges">
+      <option name="closed" value="true" />
+      <created>1768944481775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768944481775</updated>
+    </task>
+    <task id="LOCAL-00003" summary="testing spherical cahnges">
+      <option name="closed" value="true" />
+      <created>1768945004771</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768945004771</updated>
+    </task>
+    <task id="LOCAL-00004" summary="just adding for loop otherwise calculates well">
+      <option name="closed" value="true" />
+      <created>1768952557774</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768952557774</updated>
+    </task>
+    <task id="LOCAL-00005" summary="MonteCarlo with variable distance calculations">
+      <option name="closed" value="true" />
+      <created>1768953479508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768953479508</updated>
+    </task>
+    <task id="LOCAL-00006" summary="working on covariance and logistical coef">
+      <option name="closed" value="true" />
+      <created>1768957997394</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768957997394</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Basic For Loop calculation no theta" />
+    <MESSAGE value="testing spherical cahnges" />
+    <MESSAGE value="just adding for loop otherwise calculates well" />
+    <MESSAGE value="MonteCarlo with variable distance calculations" />
+    <MESSAGE value="working on covariance and logistical coef" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on covariance and logistical coef" />
   </component>
 </project>
