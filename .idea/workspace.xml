@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="21619954-a001-48d4-89a2-2b0838aec670" name="Changes" comment="working on covariance and logistical coef">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.venv/Lib/Shooting_Calculations" beforeDir="false" afterPath="$PROJECT_DIR$/.venv/Lib/Shooting_Calculations" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,11 @@
     "Python.test_2.executor": "Run",
     "Python.traj_saqib.executor": "Run",
     "Python.traj_saqib_RPM.executor": "Run",
+    "Python.traj_saqib_RPM_NoAngle.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Monte-Carlo",
     "last_opened_file_path": "C:/Users/Joshua Wolanyk/PycharmProjects/TurretError/.venv/Lib",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768957997394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="working on covariance and logistical coef">
+      <option name="closed" value="true" />
+      <created>1773583329590</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1773583329590</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
