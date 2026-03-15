@@ -1,0 +1,1070 @@
+[
+  {
+    "distance": 119.488,
+    "theta": 73.2,
+    "velocity": 9.3,
+    "servo": 0.2
+  },
+  {
+    "distance": 120.157,
+    "theta": 73.1,
+    "velocity": 9.3,
+    "servo": 0.20452
+  },
+  {
+    "distance": 121.024,
+    "theta": 73.0,
+    "velocity": 9.3,
+    "servo": 0.20904
+  },
+  {
+    "distance": 121.693,
+    "theta": 72.9,
+    "velocity": 9.3,
+    "servo": 0.213559
+  },
+  {
+    "distance": 122.52,
+    "theta": 72.8,
+    "velocity": 9.3,
+    "servo": 0.218079
+  },
+  {
+    "distance": 123.189,
+    "theta": 72.7,
+    "velocity": 9.3,
+    "servo": 0.222599
+  },
+  {
+    "distance": 124.016,
+    "theta": 72.6,
+    "velocity": 9.3,
+    "servo": 0.227119
+  },
+  {
+    "distance": 124.685,
+    "theta": 72.5,
+    "velocity": 9.3,
+    "servo": 0.231638
+  },
+  {
+    "distance": 125.512,
+    "theta": 72.4,
+    "velocity": 9.3,
+    "servo": 0.236158
+  },
+  {
+    "distance": 126.181,
+    "theta": 72.3,
+    "velocity": 9.3,
+    "servo": 0.240678
+  },
+  {
+    "distance": 127.008,
+    "theta": 72.2,
+    "velocity": 9.3,
+    "servo": 0.245198
+  },
+  {
+    "distance": 127.677,
+    "theta": 72.1,
+    "velocity": 9.3,
+    "servo": 0.249718
+  },
+  {
+    "distance": 128.346,
+    "theta": 72.0,
+    "velocity": 9.3,
+    "servo": 0.254237
+  },
+  {
+    "distance": 129.134,
+    "theta": 71.9,
+    "velocity": 9.3,
+    "servo": 0.258757
+  },
+  {
+    "distance": 129.803,
+    "theta": 71.8,
+    "velocity": 9.3,
+    "servo": 0.263277
+  },
+  {
+    "distance": 130.63,
+    "theta": 71.7,
+    "velocity": 9.3,
+    "servo": 0.267797
+  },
+  {
+    "distance": 131.26,
+    "theta": 71.6,
+    "velocity": 9.3,
+    "servo": 0.272316
+  },
+  {
+    "distance": 132.087,
+    "theta": 71.5,
+    "velocity": 9.3,
+    "servo": 0.276836
+  },
+  {
+    "distance": 132.717,
+    "theta": 71.4,
+    "velocity": 9.3,
+    "servo": 0.281356
+  },
+  {
+    "distance": 133.543,
+    "theta": 71.3,
+    "velocity": 9.3,
+    "servo": 0.285876
+  },
+  {
+    "distance": 134.173,
+    "theta": 71.2,
+    "velocity": 9.3,
+    "servo": 0.290395
+  },
+  {
+    "distance": 134.843,
+    "theta": 71.1,
+    "velocity": 9.3,
+    "servo": 0.294915
+  },
+  {
+    "distance": 135.63,
+    "theta": 71.0,
+    "velocity": 9.3,
+    "servo": 0.299435
+  },
+  {
+    "distance": 136.22,
+    "theta": 70.9,
+    "velocity": 9.3,
+    "servo": 0.303955
+  },
+  {
+    "distance": 137.047,
+    "theta": 70.8,
+    "velocity": 9.3,
+    "servo": 0.308475
+  },
+  {
+    "distance": 137.677,
+    "theta": 70.7,
+    "velocity": 9.3,
+    "servo": 0.312994
+  },
+  {
+    "distance": 138.504,
+    "theta": 70.6,
+    "velocity": 9.3,
+    "servo": 0.317514
+  },
+  {
+    "distance": 139.094,
+    "theta": 70.5,
+    "velocity": 9.3,
+    "servo": 0.322034
+  },
+  {
+    "distance": 139.724,
+    "theta": 70.4,
+    "velocity": 9.3,
+    "servo": 0.326554
+  },
+  {
+    "distance": 140.551,
+    "theta": 70.3,
+    "velocity": 9.3,
+    "servo": 0.331073
+  },
+  {
+    "distance": 141.142,
+    "theta": 70.2,
+    "velocity": 9.3,
+    "servo": 0.335593
+  },
+  {
+    "distance": 141.969,
+    "theta": 70.1,
+    "velocity": 9.3,
+    "servo": 0.340113
+  },
+  {
+    "distance": 142.559,
+    "theta": 70.0,
+    "velocity": 9.3,
+    "servo": 0.344633
+  },
+  {
+    "distance": 143.15,
+    "theta": 69.9,
+    "velocity": 9.3,
+    "servo": 0.349153
+  },
+  {
+    "distance": 143.976,
+    "theta": 69.8,
+    "velocity": 9.3,
+    "servo": 0.353672
+  },
+  {
+    "distance": 144.567,
+    "theta": 69.7,
+    "velocity": 9.3,
+    "servo": 0.358192
+  },
+  {
+    "distance": 145.197,
+    "theta": 69.6,
+    "velocity": 9.3,
+    "servo": 0.362712
+  },
+  {
+    "distance": 145.945,
+    "theta": 69.5,
+    "velocity": 9.3,
+    "servo": 0.367232
+  },
+  {
+    "distance": 146.535,
+    "theta": 69.4,
+    "velocity": 9.3,
+    "servo": 0.371751
+  },
+  {
+    "distance": 147.323,
+    "theta": 69.3,
+    "velocity": 9.3,
+    "servo": 0.376271
+  },
+  {
+    "distance": 147.913,
+    "theta": 69.2,
+    "velocity": 9.3,
+    "servo": 0.380791
+  },
+  {
+    "distance": 148.504,
+    "theta": 69.1,
+    "velocity": 9.3,
+    "servo": 0.385311
+  },
+  {
+    "distance": 149.291,
+    "theta": 69.0,
+    "velocity": 9.3,
+    "servo": 0.389831
+  },
+  {
+    "distance": 149.882,
+    "theta": 68.9,
+    "velocity": 9.3,
+    "servo": 0.39435
+  },
+  {
+    "distance": 150.472,
+    "theta": 68.8,
+    "velocity": 9.3,
+    "servo": 0.39887
+  },
+  {
+    "distance": 151.22,
+    "theta": 68.7,
+    "velocity": 9.3,
+    "servo": 0.40339
+  },
+  {
+    "distance": 151.811,
+    "theta": 68.6,
+    "velocity": 9.3,
+    "servo": 0.40791
+  },
+  {
+    "distance": 152.402,
+    "theta": 68.5,
+    "velocity": 9.3,
+    "servo": 0.412429
+  },
+  {
+    "distance": 153.15,
+    "theta": 68.4,
+    "velocity": 9.3,
+    "servo": 0.416949
+  },
+  {
+    "distance": 153.74,
+    "theta": 68.3,
+    "velocity": 9.3,
+    "servo": 0.421469
+  },
+  {
+    "distance": 154.331,
+    "theta": 68.2,
+    "velocity": 9.3,
+    "servo": 0.425989
+  },
+  {
+    "distance": 155.079,
+    "theta": 68.1,
+    "velocity": 9.3,
+    "servo": 0.430508
+  },
+  {
+    "distance": 155.63,
+    "theta": 68.0,
+    "velocity": 9.3,
+    "servo": 0.435028
+  },
+  {
+    "distance": 156.22,
+    "theta": 67.9,
+    "velocity": 9.3,
+    "servo": 0.439548
+  },
+  {
+    "distance": 156.969,
+    "theta": 67.8,
+    "velocity": 9.3,
+    "servo": 0.444068
+  },
+  {
+    "distance": 157.52,
+    "theta": 67.7,
+    "velocity": 9.3,
+    "servo": 0.448588
+  },
+  {
+    "distance": 158.071,
+    "theta": 67.6,
+    "velocity": 9.3,
+    "servo": 0.453107
+  },
+  {
+    "distance": 158.819,
+    "theta": 67.5,
+    "velocity": 9.3,
+    "servo": 0.457627
+  },
+  {
+    "distance": 159.37,
+    "theta": 67.4,
+    "velocity": 9.3,
+    "servo": 0.462147
+  },
+  {
+    "distance": 159.921,
+    "theta": 67.3,
+    "velocity": 9.3,
+    "servo": 0.466667
+  },
+  {
+    "distance": 160.669,
+    "theta": 67.2,
+    "velocity": 9.3,
+    "servo": 0.471186
+  },
+  {
+    "distance": 161.22,
+    "theta": 67.1,
+    "velocity": 9.3,
+    "servo": 0.475706
+  },
+  {
+    "distance": 161.732,
+    "theta": 67.0,
+    "velocity": 9.3,
+    "servo": 0.480226
+  },
+  {
+    "distance": 162.52,
+    "theta": 66.9,
+    "velocity": 9.3,
+    "servo": 0.484746
+  },
+  {
+    "distance": 163.031,
+    "theta": 66.8,
+    "velocity": 9.3,
+    "servo": 0.489266
+  },
+  {
+    "distance": 163.543,
+    "theta": 66.7,
+    "velocity": 9.3,
+    "servo": 0.493785
+  },
+  {
+    "distance": 164.331,
+    "theta": 66.6,
+    "velocity": 9.3,
+    "servo": 0.498305
+  },
+  {
+    "distance": 164.843,
+    "theta": 66.5,
+    "velocity": 9.3,
+    "servo": 0.502825
+  },
+  {
+    "distance": 165.354,
+    "theta": 66.4,
+    "velocity": 9.3,
+    "servo": 0.507345
+  },
+  {
+    "distance": 165.866,
+    "theta": 66.3,
+    "velocity": 9.3,
+    "servo": 0.511864
+  },
+  {
+    "distance": 166.614,
+    "theta": 66.2,
+    "velocity": 9.3,
+    "servo": 0.516384
+  },
+  {
+    "distance": 167.126,
+    "theta": 66.1,
+    "velocity": 9.3,
+    "servo": 0.520904
+  },
+  {
+    "distance": 167.638,
+    "theta": 66.0,
+    "velocity": 9.3,
+    "servo": 0.525424
+  },
+  {
+    "distance": 168.189,
+    "theta": 65.9,
+    "velocity": 9.3,
+    "servo": 0.529944
+  },
+  {
+    "distance": 168.898,
+    "theta": 65.8,
+    "velocity": 9.3,
+    "servo": 0.534463
+  },
+  {
+    "distance": 169.409,
+    "theta": 65.7,
+    "velocity": 9.3,
+    "servo": 0.538983
+  },
+  {
+    "distance": 169.882,
+    "theta": 65.6,
+    "velocity": 9.3,
+    "servo": 0.543503
+  },
+  {
+    "distance": 170.63,
+    "theta": 65.5,
+    "velocity": 9.3,
+    "servo": 0.548023
+  },
+  {
+    "distance": 171.142,
+    "theta": 65.4,
+    "velocity": 9.3,
+    "servo": 0.552542
+  },
+  {
+    "distance": 171.614,
+    "theta": 65.3,
+    "velocity": 9.3,
+    "servo": 0.557062
+  },
+  {
+    "distance": 172.126,
+    "theta": 65.2,
+    "velocity": 9.3,
+    "servo": 0.561582
+  },
+  {
+    "distance": 172.874,
+    "theta": 65.1,
+    "velocity": 9.3,
+    "servo": 0.566102
+  },
+  {
+    "distance": 173.346,
+    "theta": 65.0,
+    "velocity": 9.3,
+    "servo": 0.570621
+  },
+  {
+    "distance": 173.819,
+    "theta": 64.9,
+    "velocity": 9.3,
+    "servo": 0.575141
+  },
+  {
+    "distance": 174.291,
+    "theta": 64.8,
+    "velocity": 9.3,
+    "servo": 0.579661
+  },
+  {
+    "distance": 174.803,
+    "theta": 64.7,
+    "velocity": 9.3,
+    "servo": 0.584181
+  },
+  {
+    "distance": 175.512,
+    "theta": 64.6,
+    "velocity": 9.3,
+    "servo": 0.588701
+  },
+  {
+    "distance": 175.984,
+    "theta": 64.5,
+    "velocity": 9.3,
+    "servo": 0.59322
+  },
+  {
+    "distance": 176.457,
+    "theta": 64.4,
+    "velocity": 9.3,
+    "servo": 0.59774
+  },
+  {
+    "distance": 176.929,
+    "theta": 64.3,
+    "velocity": 9.3,
+    "servo": 0.60226
+  },
+  {
+    "distance": 177.638,
+    "theta": 64.2,
+    "velocity": 9.3,
+    "servo": 0.60678
+  },
+  {
+    "distance": 178.11,
+    "theta": 64.1,
+    "velocity": 9.3,
+    "servo": 0.611299
+  },
+  {
+    "distance": 178.583,
+    "theta": 64.0,
+    "velocity": 9.3,
+    "servo": 0.615819
+  },
+  {
+    "distance": 179.016,
+    "theta": 63.9,
+    "velocity": 9.3,
+    "servo": 0.620339
+  },
+  {
+    "distance": 179.488,
+    "theta": 63.8,
+    "velocity": 9.3,
+    "servo": 0.624859
+  },
+  {
+    "distance": 180.197,
+    "theta": 63.7,
+    "velocity": 9.3,
+    "servo": 0.629379
+  },
+  {
+    "distance": 180.63,
+    "theta": 63.6,
+    "velocity": 9.3,
+    "servo": 0.633898
+  },
+  {
+    "distance": 181.102,
+    "theta": 63.5,
+    "velocity": 9.3,
+    "servo": 0.638418
+  },
+  {
+    "distance": 181.535,
+    "theta": 63.4,
+    "velocity": 9.3,
+    "servo": 0.642938
+  },
+  {
+    "distance": 182.008,
+    "theta": 63.3,
+    "velocity": 9.3,
+    "servo": 0.647458
+  },
+  {
+    "distance": 182.677,
+    "theta": 63.2,
+    "velocity": 9.3,
+    "servo": 0.651977
+  },
+  {
+    "distance": 183.11,
+    "theta": 63.1,
+    "velocity": 9.3,
+    "servo": 0.656497
+  },
+  {
+    "distance": 183.543,
+    "theta": 63.0,
+    "velocity": 9.3,
+    "servo": 0.661017
+  },
+  {
+    "distance": 183.976,
+    "theta": 62.9,
+    "velocity": 9.3,
+    "servo": 0.665537
+  },
+  {
+    "distance": 184.409,
+    "theta": 62.8,
+    "velocity": 9.3,
+    "servo": 0.670056
+  },
+  {
+    "distance": 185.118,
+    "theta": 62.7,
+    "velocity": 9.3,
+    "servo": 0.674576
+  },
+  {
+    "distance": 185.551,
+    "theta": 62.6,
+    "velocity": 9.3,
+    "servo": 0.679096
+  },
+  {
+    "distance": 185.984,
+    "theta": 62.5,
+    "velocity": 9.3,
+    "servo": 0.683616
+  },
+  {
+    "distance": 186.378,
+    "theta": 62.4,
+    "velocity": 9.3,
+    "servo": 0.688136
+  },
+  {
+    "distance": 186.811,
+    "theta": 62.3,
+    "velocity": 9.3,
+    "servo": 0.692655
+  },
+  {
+    "distance": 187.205,
+    "theta": 62.2,
+    "velocity": 9.3,
+    "servo": 0.697175
+  },
+  {
+    "distance": 187.677,
+    "theta": 62.1,
+    "velocity": 9.3,
+    "servo": 0.701695
+  },
+  {
+    "distance": 188.346,
+    "theta": 62.0,
+    "velocity": 9.3,
+    "servo": 0.706215
+  },
+  {
+    "distance": 188.74,
+    "theta": 61.9,
+    "velocity": 9.3,
+    "servo": 0.710734
+  },
+  {
+    "distance": 189.134,
+    "theta": 61.8,
+    "velocity": 9.3,
+    "servo": 0.715254
+  },
+  {
+    "distance": 189.528,
+    "theta": 61.7,
+    "velocity": 9.3,
+    "servo": 0.719774
+  },
+  {
+    "distance": 189.921,
+    "theta": 61.6,
+    "velocity": 9.3,
+    "servo": 0.724294
+  },
+  {
+    "distance": 190.354,
+    "theta": 61.5,
+    "velocity": 9.3,
+    "servo": 0.728814
+  },
+  {
+    "distance": 190.748,
+    "theta": 61.4,
+    "velocity": 9.3,
+    "servo": 0.733333
+  },
+  {
+    "distance": 191.417,
+    "theta": 61.3,
+    "velocity": 9.3,
+    "servo": 0.737853
+  },
+  {
+    "distance": 191.811,
+    "theta": 61.2,
+    "velocity": 9.3,
+    "servo": 0.742373
+  },
+  {
+    "distance": 192.205,
+    "theta": 61.1,
+    "velocity": 9.3,
+    "servo": 0.746893
+  },
+  {
+    "distance": 192.559,
+    "theta": 61.0,
+    "velocity": 9.3,
+    "servo": 0.751412
+  },
+  {
+    "distance": 192.953,
+    "theta": 60.9,
+    "velocity": 9.3,
+    "servo": 0.755932
+  },
+  {
+    "distance": 193.346,
+    "theta": 60.8,
+    "velocity": 9.3,
+    "servo": 0.760452
+  },
+  {
+    "distance": 193.701,
+    "theta": 60.7,
+    "velocity": 9.3,
+    "servo": 0.764972
+  },
+  {
+    "distance": 194.094,
+    "theta": 60.6,
+    "velocity": 9.3,
+    "servo": 0.769492
+  },
+  {
+    "distance": 194.764,
+    "theta": 60.5,
+    "velocity": 9.3,
+    "servo": 0.774011
+  },
+  {
+    "distance": 195.118,
+    "theta": 60.4,
+    "velocity": 9.3,
+    "servo": 0.778531
+  },
+  {
+    "distance": 195.472,
+    "theta": 60.3,
+    "velocity": 9.3,
+    "servo": 0.783051
+  },
+  {
+    "distance": 195.866,
+    "theta": 60.2,
+    "velocity": 9.3,
+    "servo": 0.787571
+  },
+  {
+    "distance": 196.22,
+    "theta": 60.1,
+    "velocity": 9.3,
+    "servo": 0.79209
+  },
+  {
+    "distance": 196.575,
+    "theta": 60.0,
+    "velocity": 9.3,
+    "servo": 0.79661
+  },
+  {
+    "distance": 196.929,
+    "theta": 59.9,
+    "velocity": 9.3,
+    "servo": 0.80113
+  },
+  {
+    "distance": 197.283,
+    "theta": 59.8,
+    "velocity": 9.3,
+    "servo": 0.80565
+  },
+  {
+    "distance": 197.638,
+    "theta": 59.7,
+    "velocity": 9.3,
+    "servo": 0.810169
+  },
+  {
+    "distance": 197.992,
+    "theta": 59.6,
+    "velocity": 9.3,
+    "servo": 0.814689
+  },
+  {
+    "distance": 198.346,
+    "theta": 59.5,
+    "velocity": 9.3,
+    "servo": 0.819209
+  },
+  {
+    "distance": 198.701,
+    "theta": 59.4,
+    "velocity": 9.3,
+    "servo": 0.823729
+  },
+  {
+    "distance": 199.331,
+    "theta": 59.3,
+    "velocity": 9.3,
+    "servo": 0.828249
+  },
+  {
+    "distance": 199.646,
+    "theta": 59.2,
+    "velocity": 9.3,
+    "servo": 0.832768
+  },
+  {
+    "distance": 200.0,
+    "theta": 59.1,
+    "velocity": 9.3,
+    "servo": 0.837288
+  },
+  {
+    "distance": 200.315,
+    "theta": 59.0,
+    "velocity": 9.3,
+    "servo": 0.841808
+  },
+  {
+    "distance": 200.669,
+    "theta": 58.9,
+    "velocity": 9.3,
+    "servo": 0.846328
+  },
+  {
+    "distance": 200.984,
+    "theta": 58.8,
+    "velocity": 9.3,
+    "servo": 0.850847
+  },
+  {
+    "distance": 201.299,
+    "theta": 58.7,
+    "velocity": 9.3,
+    "servo": 0.855367
+  },
+  {
+    "distance": 201.654,
+    "theta": 58.6,
+    "velocity": 9.3,
+    "servo": 0.859887
+  },
+  {
+    "distance": 201.969,
+    "theta": 58.5,
+    "velocity": 9.3,
+    "servo": 0.864407
+  },
+  {
+    "distance": 202.283,
+    "theta": 58.4,
+    "velocity": 9.3,
+    "servo": 0.868927
+  },
+  {
+    "distance": 202.598,
+    "theta": 58.3,
+    "velocity": 9.3,
+    "servo": 0.873446
+  },
+  {
+    "distance": 202.913,
+    "theta": 58.2,
+    "velocity": 9.3,
+    "servo": 0.877966
+  },
+  {
+    "distance": 203.228,
+    "theta": 58.1,
+    "velocity": 9.3,
+    "servo": 0.882486
+  },
+  {
+    "distance": 203.504,
+    "theta": 58.0,
+    "velocity": 9.3,
+    "servo": 0.887006
+  },
+  {
+    "distance": 203.819,
+    "theta": 57.9,
+    "velocity": 9.3,
+    "servo": 0.891525
+  },
+  {
+    "distance": 204.134,
+    "theta": 57.8,
+    "velocity": 9.3,
+    "servo": 0.896045
+  },
+  {
+    "distance": 204.409,
+    "theta": 57.7,
+    "velocity": 9.3,
+    "servo": 0.900565
+  },
+  {
+    "distance": 204.724,
+    "theta": 57.6,
+    "velocity": 9.3,
+    "servo": 0.905085
+  },
+  {
+    "distance": 205.0,
+    "theta": 57.5,
+    "velocity": 9.3,
+    "servo": 0.909605
+  },
+  {
+    "distance": 205.315,
+    "theta": 57.4,
+    "velocity": 9.3,
+    "servo": 0.914124
+  },
+  {
+    "distance": 205.591,
+    "theta": 57.3,
+    "velocity": 9.3,
+    "servo": 0.918644
+  },
+  {
+    "distance": 205.866,
+    "theta": 57.2,
+    "velocity": 9.3,
+    "servo": 0.923164
+  },
+  {
+    "distance": 206.181,
+    "theta": 57.1,
+    "velocity": 9.3,
+    "servo": 0.927684
+  },
+  {
+    "distance": 206.457,
+    "theta": 57.0,
+    "velocity": 9.3,
+    "servo": 0.932203
+  },
+  {
+    "distance": 206.732,
+    "theta": 56.9,
+    "velocity": 9.3,
+    "servo": 0.936723
+  },
+  {
+    "distance": 207.008,
+    "theta": 56.8,
+    "velocity": 9.3,
+    "servo": 0.941243
+  },
+  {
+    "distance": 207.283,
+    "theta": 56.7,
+    "velocity": 9.3,
+    "servo": 0.945763
+  },
+  {
+    "distance": 207.559,
+    "theta": 56.6,
+    "velocity": 9.3,
+    "servo": 0.950282
+  },
+  {
+    "distance": 207.835,
+    "theta": 56.5,
+    "velocity": 9.3,
+    "servo": 0.954802
+  },
+  {
+    "distance": 208.071,
+    "theta": 56.4,
+    "velocity": 9.3,
+    "servo": 0.959322
+  },
+  {
+    "distance": 208.346,
+    "theta": 56.3,
+    "velocity": 9.3,
+    "servo": 0.963842
+  },
+  {
+    "distance": 208.622,
+    "theta": 56.2,
+    "velocity": 9.3,
+    "servo": 0.968362
+  },
+  {
+    "distance": 208.858,
+    "theta": 56.1,
+    "velocity": 9.3,
+    "servo": 0.972881
+  },
+  {
+    "distance": 209.134,
+    "theta": 56.0,
+    "velocity": 9.3,
+    "servo": 0.977401
+  },
+  {
+    "distance": 209.37,
+    "theta": 55.9,
+    "velocity": 9.3,
+    "servo": 0.981921
+  },
+  {
+    "distance": 209.646,
+    "theta": 55.8,
+    "velocity": 9.3,
+    "servo": 0.986441
+  },
+  {
+    "distance": 209.882,
+    "theta": 55.7,
+    "velocity": 9.3,
+    "servo": 0.99096
+  },
+  {
+    "distance": 210.118,
+    "theta": 55.6,
+    "velocity": 9.3,
+    "servo": 0.99548
+  },
+  {
+    "distance": 210.354,
+    "theta": 55.5,
+    "velocity": 9.3,
+    "servo": 1.0
+  }
+]

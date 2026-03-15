@@ -1,0 +1,2909 @@
+[
+  {
+    "delta_distance": 0.08899999999999997,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.889999999999987,
+    "velocity": 7.795,
+    "current_theta": 43.4,
+    "previous_distance": 2.975,
+    "distance": 3.064
+  },
+  {
+    "delta_distance": 0.05799999999999983,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.5799999999999901,
+    "velocity": 7.794,
+    "current_theta": 43.5,
+    "previous_distance": 3.064,
+    "distance": 3.122
+  },
+  {
+    "delta_distance": 0.04700000000000015,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.46999999999999487,
+    "velocity": 7.794,
+    "current_theta": 43.6,
+    "previous_distance": 3.122,
+    "distance": 3.169
+  },
+  {
+    "delta_distance": 0.03600000000000003,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.3599999999999952,
+    "velocity": 7.794,
+    "current_theta": 43.7,
+    "previous_distance": 3.169,
+    "distance": 3.205
+  },
+  {
+    "delta_distance": 0.03600000000000003,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.3600000000000208,
+    "velocity": 7.794,
+    "current_theta": 43.8,
+    "previous_distance": 3.205,
+    "distance": 3.241
+  },
+  {
+    "delta_distance": 0.03600000000000003,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.3599999999999952,
+    "velocity": 7.793,
+    "current_theta": 43.9,
+    "previous_distance": 3.241,
+    "distance": 3.277
+  },
+  {
+    "delta_distance": 0.03600000000000003,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.3599999999999952,
+    "velocity": 7.793,
+    "current_theta": 44.0,
+    "previous_distance": 3.277,
+    "distance": 3.313
+  },
+  {
+    "delta_distance": 0.02499999999999991,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.24999999999999556,
+    "velocity": 7.793,
+    "current_theta": 44.1,
+    "previous_distance": 3.313,
+    "distance": 3.338
+  },
+  {
+    "delta_distance": 0.02499999999999991,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.24999999999999556,
+    "velocity": 7.792,
+    "current_theta": 44.2,
+    "previous_distance": 3.338,
+    "distance": 3.363
+  },
+  {
+    "delta_distance": 0.02499999999999991,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.2500000000000133,
+    "velocity": 7.792,
+    "current_theta": 44.3,
+    "previous_distance": 3.363,
+    "distance": 3.388
+  },
+  {
+    "delta_distance": 0.02499999999999991,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.24999999999999556,
+    "velocity": 7.792,
+    "current_theta": 44.4,
+    "previous_distance": 3.388,
+    "distance": 3.413
+  },
+  {
+    "delta_distance": 0.014000000000000234,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.14000000000000035,
+    "velocity": 7.791,
+    "current_theta": 44.5,
+    "previous_distance": 3.413,
+    "distance": 3.427
+  },
+  {
+    "delta_distance": 0.02499999999999991,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.24999999999999556,
+    "velocity": 7.791,
+    "current_theta": 44.6,
+    "previous_distance": 3.427,
+    "distance": 3.452
+  },
+  {
+    "delta_distance": 0.02400000000000002,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.2399999999999968,
+    "velocity": 7.791,
+    "current_theta": 44.7,
+    "previous_distance": 3.452,
+    "distance": 3.476
+  },
+  {
+    "delta_distance": 0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.1400000000000103,
+    "velocity": 7.791,
+    "current_theta": 44.8,
+    "previous_distance": 3.476,
+    "distance": 3.49
+  },
+  {
+    "delta_distance": 0.02499999999999991,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.24999999999999556,
+    "velocity": 7.79,
+    "current_theta": 44.9,
+    "previous_distance": 3.49,
+    "distance": 3.515
+  },
+  {
+    "delta_distance": 0.01399999999999979,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1399999999999959,
+    "velocity": 7.79,
+    "current_theta": 45.0,
+    "previous_distance": 3.515,
+    "distance": 3.529
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.79,
+    "current_theta": 45.1,
+    "previous_distance": 3.529,
+    "distance": 3.542
+  },
+  {
+    "delta_distance": 0.02400000000000002,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.2399999999999968,
+    "velocity": 7.789,
+    "current_theta": 45.2,
+    "previous_distance": 3.542,
+    "distance": 3.566
+  },
+  {
+    "delta_distance": 0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.1400000000000103,
+    "velocity": 7.789,
+    "current_theta": 45.3,
+    "previous_distance": 3.566,
+    "distance": 3.58
+  },
+  {
+    "delta_distance": 0.01399999999999979,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1399999999999959,
+    "velocity": 7.789,
+    "current_theta": 45.4,
+    "previous_distance": 3.58,
+    "distance": 3.594
+  },
+  {
+    "delta_distance": 0.013000000000000345,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1300000000000016,
+    "velocity": 7.789,
+    "current_theta": 45.5,
+    "previous_distance": 3.594,
+    "distance": 3.607
+  },
+  {
+    "delta_distance": 0.01399999999999979,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1399999999999959,
+    "velocity": 7.788,
+    "current_theta": 45.6,
+    "previous_distance": 3.607,
+    "distance": 3.621
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.788,
+    "current_theta": 45.7,
+    "previous_distance": 3.621,
+    "distance": 3.634
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.1300000000000064,
+    "velocity": 7.788,
+    "current_theta": 45.8,
+    "previous_distance": 3.634,
+    "distance": 3.647
+  },
+  {
+    "delta_distance": 0.013000000000000345,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1300000000000016,
+    "velocity": 7.787,
+    "current_theta": 45.9,
+    "previous_distance": 3.647,
+    "distance": 3.66
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.787,
+    "current_theta": 46.0,
+    "previous_distance": 3.66,
+    "distance": 3.673
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.787,
+    "current_theta": 46.1,
+    "previous_distance": 3.673,
+    "distance": 3.686
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.786,
+    "current_theta": 46.2,
+    "previous_distance": 3.686,
+    "distance": 3.699
+  },
+  {
+    "delta_distance": 0.013000000000000345,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.13000000000001083,
+    "velocity": 7.786,
+    "current_theta": 46.3,
+    "previous_distance": 3.699,
+    "distance": 3.712
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.786,
+    "current_theta": 46.4,
+    "previous_distance": 3.712,
+    "distance": 3.725
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.786,
+    "current_theta": 46.5,
+    "previous_distance": 3.725,
+    "distance": 3.738
+  },
+  {
+    "delta_distance": 0.002000000000000224,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.020000000000001954,
+    "velocity": 7.785,
+    "current_theta": 46.6,
+    "previous_distance": 3.738,
+    "distance": 3.74
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.785,
+    "current_theta": 46.7,
+    "previous_distance": 3.74,
+    "distance": 3.753
+  },
+  {
+    "delta_distance": 0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.12000000000000693,
+    "velocity": 7.785,
+    "current_theta": 46.8,
+    "previous_distance": 3.753,
+    "distance": 3.765
+  },
+  {
+    "delta_distance": 0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.12999999999999715,
+    "velocity": 7.784,
+    "current_theta": 46.9,
+    "previous_distance": 3.765,
+    "distance": 3.778
+  },
+  {
+    "delta_distance": 0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1199999999999984,
+    "velocity": 7.784,
+    "current_theta": 47.0,
+    "previous_distance": 3.778,
+    "distance": 3.79
+  },
+  {
+    "delta_distance": 0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.019999999999997513,
+    "velocity": 7.784,
+    "current_theta": 47.1,
+    "previous_distance": 3.79,
+    "distance": 3.792
+  },
+  {
+    "delta_distance": 0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1199999999999984,
+    "velocity": 7.784,
+    "current_theta": 47.2,
+    "previous_distance": 3.792,
+    "distance": 3.804
+  },
+  {
+    "delta_distance": 0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.12000000000000693,
+    "velocity": 7.783,
+    "current_theta": 47.3,
+    "previous_distance": 3.804,
+    "distance": 3.816
+  },
+  {
+    "delta_distance": 0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.03000000000000071,
+    "velocity": 7.783,
+    "current_theta": 47.4,
+    "previous_distance": 3.816,
+    "distance": 3.819
+  },
+  {
+    "delta_distance": 0.01100000000000012,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.10999999999999964,
+    "velocity": 7.783,
+    "current_theta": 47.5,
+    "previous_distance": 3.819,
+    "distance": 3.83
+  },
+  {
+    "delta_distance": 0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1199999999999984,
+    "velocity": 7.782,
+    "current_theta": 47.6,
+    "previous_distance": 3.83,
+    "distance": 3.842
+  },
+  {
+    "delta_distance": 0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.019999999999997513,
+    "velocity": 7.782,
+    "current_theta": 47.7,
+    "previous_distance": 3.842,
+    "distance": 3.844
+  },
+  {
+    "delta_distance": 0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.12000000000000693,
+    "velocity": 7.782,
+    "current_theta": 47.8,
+    "previous_distance": 3.844,
+    "distance": 3.856
+  },
+  {
+    "delta_distance": 0.002000000000000224,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.020000000000001954,
+    "velocity": 7.781,
+    "current_theta": 47.9,
+    "previous_distance": 3.856,
+    "distance": 3.858
+  },
+  {
+    "delta_distance": 0.01100000000000012,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.10999999999999964,
+    "velocity": 7.781,
+    "current_theta": 48.0,
+    "previous_distance": 3.858,
+    "distance": 3.869
+  },
+  {
+    "delta_distance": 0.010999999999999677,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1099999999999952,
+    "velocity": 7.781,
+    "current_theta": 48.1,
+    "previous_distance": 3.869,
+    "distance": 3.88
+  },
+  {
+    "delta_distance": 0.002000000000000224,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.020000000000001954,
+    "velocity": 7.781,
+    "current_theta": 48.2,
+    "previous_distance": 3.88,
+    "distance": 3.882
+  },
+  {
+    "delta_distance": 0.010999999999999677,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.11000000000000303,
+    "velocity": 7.78,
+    "current_theta": 48.3,
+    "previous_distance": 3.882,
+    "distance": 3.893
+  },
+  {
+    "delta_distance": 0.002000000000000224,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.020000000000001954,
+    "velocity": 7.78,
+    "current_theta": 48.4,
+    "previous_distance": 3.893,
+    "distance": 3.895
+  },
+  {
+    "delta_distance": 0.01100000000000012,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.10999999999999964,
+    "velocity": 7.78,
+    "current_theta": 48.5,
+    "previous_distance": 3.895,
+    "distance": 3.906
+  },
+  {
+    "delta_distance": 0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.019999999999997513,
+    "velocity": 7.779,
+    "current_theta": 48.6,
+    "previous_distance": 3.906,
+    "distance": 3.908
+  },
+  {
+    "delta_distance": 0.01100000000000012,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.10999999999999964,
+    "velocity": 7.779,
+    "current_theta": 48.7,
+    "previous_distance": 3.908,
+    "distance": 3.919
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.009999999999999468,
+    "velocity": 7.779,
+    "current_theta": 48.8,
+    "previous_distance": 3.919,
+    "distance": 3.92
+  },
+  {
+    "delta_distance": 0.01100000000000012,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.10999999999999964,
+    "velocity": 7.779,
+    "current_theta": 48.9,
+    "previous_distance": 3.92,
+    "distance": 3.931
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.009999999999998756,
+    "velocity": 7.778,
+    "current_theta": 49.0,
+    "previous_distance": 3.931,
+    "distance": 3.932
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.009999999999998756,
+    "velocity": 7.778,
+    "current_theta": 49.1,
+    "previous_distance": 3.932,
+    "distance": 3.933
+  },
+  {
+    "delta_distance": 0.01100000000000012,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.10999999999999964,
+    "velocity": 7.778,
+    "current_theta": 49.2,
+    "previous_distance": 3.933,
+    "distance": 3.944
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.009999999999999468,
+    "velocity": 7.777,
+    "current_theta": 49.3,
+    "previous_distance": 3.944,
+    "distance": 3.945
+  },
+  {
+    "delta_distance": 0.010000000000000231,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1000000000000009,
+    "velocity": 7.777,
+    "current_theta": 49.4,
+    "previous_distance": 3.945,
+    "distance": 3.955
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.009999999999998756,
+    "velocity": 7.777,
+    "current_theta": 49.5,
+    "previous_distance": 3.955,
+    "distance": 3.956
+  },
+  {
+    "delta_distance": 0.010000000000000231,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1000000000000009,
+    "velocity": 7.776,
+    "current_theta": 49.6,
+    "previous_distance": 3.956,
+    "distance": 3.966
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.009999999999998756,
+    "velocity": 7.776,
+    "current_theta": 49.7,
+    "previous_distance": 3.966,
+    "distance": 3.967
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.009999999999999468,
+    "velocity": 7.776,
+    "current_theta": 49.8,
+    "previous_distance": 3.967,
+    "distance": 3.968
+  },
+  {
+    "delta_distance": 0.010000000000000231,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.1000000000000009,
+    "velocity": 7.776,
+    "current_theta": 49.9,
+    "previous_distance": 3.968,
+    "distance": 3.978
+  },
+  {
+    "delta_distance": 0.0009999999999998899,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.009999999999998756,
+    "velocity": 7.775,
+    "current_theta": 50.0,
+    "previous_distance": 3.978,
+    "distance": 3.979
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.775,
+    "current_theta": 50.1,
+    "previous_distance": 3.979,
+    "distance": 3.979
+  },
+  {
+    "delta_distance": 0.009999999999999787,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.09999999999999645,
+    "velocity": 7.775,
+    "current_theta": 50.2,
+    "previous_distance": 3.979,
+    "distance": 3.989
+  },
+  {
+    "delta_distance": 0.001000000000000334,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.010000000000003909,
+    "velocity": 7.774,
+    "current_theta": 50.3,
+    "previous_distance": 3.989,
+    "distance": 3.99
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.774,
+    "current_theta": 50.4,
+    "previous_distance": 3.99,
+    "distance": 3.99
+  },
+  {
+    "delta_distance": 0.009999999999999787,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.09999999999999645,
+    "velocity": 7.774,
+    "current_theta": 50.5,
+    "previous_distance": 3.99,
+    "distance": 4.0
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.774,
+    "current_theta": 50.6,
+    "previous_distance": 4.0,
+    "distance": 4.0
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.773,
+    "current_theta": 50.7,
+    "previous_distance": 4.0,
+    "distance": 4.0
+  },
+  {
+    "delta_distance": 0.009999999999999787,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.10000000000000356,
+    "velocity": 7.773,
+    "current_theta": 50.8,
+    "previous_distance": 4.0,
+    "distance": 4.01
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.773,
+    "current_theta": 50.9,
+    "previous_distance": 4.01,
+    "distance": 4.01
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.772,
+    "current_theta": 51.0,
+    "previous_distance": 4.01,
+    "distance": 4.01
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.772,
+    "current_theta": 51.1,
+    "previous_distance": 4.01,
+    "distance": 4.01
+  },
+  {
+    "delta_distance": 0.009000000000000341,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.09000000000000213,
+    "velocity": 7.772,
+    "current_theta": 51.2,
+    "previous_distance": 4.01,
+    "distance": 4.019
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.0,
+    "velocity": 7.771,
+    "current_theta": 51.3,
+    "previous_distance": 4.019,
+    "distance": 4.019
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.771,
+    "current_theta": 51.4,
+    "previous_distance": 4.019,
+    "distance": 4.019
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.771,
+    "current_theta": 51.5,
+    "previous_distance": 4.019,
+    "distance": 4.019
+  },
+  {
+    "delta_distance": 0.008999999999999453,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.08999999999999325,
+    "velocity": 7.771,
+    "current_theta": 51.6,
+    "previous_distance": 4.019,
+    "distance": 4.028
+  },
+  {
+    "delta_distance": -0.0009999999999994458,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.009999999999994316,
+    "velocity": 7.77,
+    "current_theta": 51.7,
+    "previous_distance": 4.028,
+    "distance": 4.027
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.0,
+    "velocity": 7.77,
+    "current_theta": 51.8,
+    "previous_distance": 4.027,
+    "distance": 4.027
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.77,
+    "current_theta": 51.9,
+    "previous_distance": 4.027,
+    "distance": 4.027
+  },
+  {
+    "delta_distance": 0.008000000000000007,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.07999999999999893,
+    "velocity": 7.769,
+    "current_theta": 52.0,
+    "previous_distance": 4.027,
+    "distance": 4.035
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.769,
+    "current_theta": 52.1,
+    "previous_distance": 4.035,
+    "distance": 4.035
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.769,
+    "current_theta": 52.2,
+    "previous_distance": 4.035,
+    "distance": 4.034
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.09999999999999432,
+    "proportion": 0.0,
+    "velocity": 7.769,
+    "current_theta": 52.3,
+    "previous_distance": 4.034,
+    "distance": 4.034
+  },
+  {
+    "delta_distance": -0.0009999999999994458,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.009999999999994316,
+    "velocity": 7.768,
+    "current_theta": 52.4,
+    "previous_distance": 4.034,
+    "distance": 4.033
+  },
+  {
+    "delta_distance": 0.008000000000000007,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.07999999999999893,
+    "velocity": 7.768,
+    "current_theta": 52.5,
+    "previous_distance": 4.033,
+    "distance": 4.041
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.768,
+    "current_theta": 52.6,
+    "previous_distance": 4.041,
+    "distance": 4.04
+  },
+  {
+    "delta_distance": 0.0,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.0,
+    "velocity": 7.767,
+    "current_theta": 52.7,
+    "previous_distance": 4.04,
+    "distance": 4.04
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.010000000000003909,
+    "velocity": 7.767,
+    "current_theta": 52.8,
+    "previous_distance": 4.04,
+    "distance": 4.039
+  },
+  {
+    "delta_distance": -0.0009999999999994458,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.009999999999994316,
+    "velocity": 7.767,
+    "current_theta": 52.9,
+    "previous_distance": 4.039,
+    "distance": 4.038
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.766,
+    "current_theta": 53.0,
+    "previous_distance": 4.038,
+    "distance": 4.037
+  },
+  {
+    "delta_distance": 0.006999999999999673,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.06999999999999573,
+    "velocity": 7.766,
+    "current_theta": 53.1,
+    "previous_distance": 4.037,
+    "distance": 4.044
+  },
+  {
+    "delta_distance": -0.0009999999999994458,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.009999999999994316,
+    "velocity": 7.766,
+    "current_theta": 53.2,
+    "previous_distance": 4.044,
+    "distance": 4.043
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.010000000000003909,
+    "velocity": 7.766,
+    "current_theta": 53.3,
+    "previous_distance": 4.043,
+    "distance": 4.042
+  },
+  {
+    "delta_distance": -0.0009999999999994458,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.009999999999994316,
+    "velocity": 7.765,
+    "current_theta": 53.4,
+    "previous_distance": 4.042,
+    "distance": 4.041
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.765,
+    "current_theta": 53.5,
+    "previous_distance": 4.041,
+    "distance": 4.04
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.765,
+    "current_theta": 53.6,
+    "previous_distance": 4.04,
+    "distance": 4.039
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.764,
+    "current_theta": 53.7,
+    "previous_distance": 4.039,
+    "distance": 4.037
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.010000000000003909,
+    "velocity": 7.764,
+    "current_theta": 53.8,
+    "previous_distance": 4.037,
+    "distance": 4.036
+  },
+  {
+    "delta_distance": 0.007000000000000561,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.07000000000000461,
+    "velocity": 7.764,
+    "current_theta": 53.9,
+    "previous_distance": 4.036,
+    "distance": 4.043
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.764,
+    "current_theta": 54.0,
+    "previous_distance": 4.043,
+    "distance": 4.041
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.763,
+    "current_theta": 54.1,
+    "previous_distance": 4.041,
+    "distance": 4.04
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.763,
+    "current_theta": 54.2,
+    "previous_distance": 4.04,
+    "distance": 4.038
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.010000000000003909,
+    "velocity": 7.763,
+    "current_theta": 54.3,
+    "previous_distance": 4.038,
+    "distance": 4.037
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.762,
+    "current_theta": 54.4,
+    "previous_distance": 4.037,
+    "distance": 4.035
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.762,
+    "current_theta": 54.5,
+    "previous_distance": 4.035,
+    "distance": 4.033
+  },
+  {
+    "delta_distance": -0.001000000000000334,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.010000000000003197,
+    "velocity": 7.762,
+    "current_theta": 54.6,
+    "previous_distance": 4.033,
+    "distance": 4.032
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.761,
+    "current_theta": 54.7,
+    "previous_distance": 4.032,
+    "distance": 4.03
+  },
+  {
+    "delta_distance": -0.002000000000000668,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.020000000000007817,
+    "velocity": 7.761,
+    "current_theta": 54.8,
+    "previous_distance": 4.03,
+    "distance": 4.028
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.761,
+    "current_theta": 54.9,
+    "previous_distance": 4.028,
+    "distance": 4.026
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.761,
+    "current_theta": 55.0,
+    "previous_distance": 4.026,
+    "distance": 4.024
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.76,
+    "current_theta": 55.1,
+    "previous_distance": 4.024,
+    "distance": 4.022
+  },
+  {
+    "delta_distance": -0.002000000000000668,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.020000000000006395,
+    "velocity": 7.76,
+    "current_theta": 55.2,
+    "previous_distance": 4.022,
+    "distance": 4.02
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.019999999999998935,
+    "velocity": 7.76,
+    "current_theta": 55.3,
+    "previous_distance": 4.02,
+    "distance": 4.018
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.759,
+    "current_theta": 55.4,
+    "previous_distance": 4.018,
+    "distance": 4.016
+  },
+  {
+    "delta_distance": 0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": 0.049999999999998226,
+    "velocity": 7.759,
+    "current_theta": 55.5,
+    "previous_distance": 4.016,
+    "distance": 4.021
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.019999999999997513,
+    "velocity": 7.759,
+    "current_theta": 55.6,
+    "previous_distance": 4.021,
+    "distance": 4.019
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.759,
+    "current_theta": 55.7,
+    "previous_distance": 4.019,
+    "distance": 4.016
+  },
+  {
+    "delta_distance": -0.0019999999999997797,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.019999999999998935,
+    "velocity": 7.758,
+    "current_theta": 55.8,
+    "previous_distance": 4.016,
+    "distance": 4.014
+  },
+  {
+    "delta_distance": -0.002000000000000668,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.020000000000006395,
+    "velocity": 7.758,
+    "current_theta": 55.9,
+    "previous_distance": 4.014,
+    "distance": 4.012
+  },
+  {
+    "delta_distance": -0.0029999999999992255,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.02999999999999183,
+    "velocity": 7.758,
+    "current_theta": 56.0,
+    "previous_distance": 4.012,
+    "distance": 4.009
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.757,
+    "current_theta": 56.1,
+    "previous_distance": 4.009,
+    "distance": 4.006
+  },
+  {
+    "delta_distance": -0.002000000000000668,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.020000000000006395,
+    "velocity": 7.757,
+    "current_theta": 56.2,
+    "previous_distance": 4.006,
+    "distance": 4.004
+  },
+  {
+    "delta_distance": -0.0029999999999992255,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.029999999999993962,
+    "velocity": 7.757,
+    "current_theta": 56.3,
+    "previous_distance": 4.004,
+    "distance": 4.001
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.756,
+    "current_theta": 56.4,
+    "previous_distance": 4.001,
+    "distance": 3.998
+  },
+  {
+    "delta_distance": -0.002000000000000224,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.020000000000001954,
+    "velocity": 7.756,
+    "current_theta": 56.5,
+    "previous_distance": 3.998,
+    "distance": 3.996
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.756,
+    "current_theta": 56.6,
+    "previous_distance": 3.996,
+    "distance": 3.993
+  },
+  {
+    "delta_distance": -0.0029999999999996696,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.02999999999999627,
+    "velocity": 7.756,
+    "current_theta": 56.7,
+    "previous_distance": 3.993,
+    "distance": 3.99
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.755,
+    "current_theta": 56.8,
+    "previous_distance": 3.99,
+    "distance": 3.979
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.755,
+    "current_theta": 56.9,
+    "previous_distance": 3.979,
+    "distance": 3.976
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.755,
+    "current_theta": 57.0,
+    "previous_distance": 3.976,
+    "distance": 3.973
+  },
+  {
+    "delta_distance": -0.0029999999999996696,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.02999999999999627,
+    "velocity": 7.754,
+    "current_theta": 57.1,
+    "previous_distance": 3.973,
+    "distance": 3.97
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.754,
+    "current_theta": 57.2,
+    "previous_distance": 3.97,
+    "distance": 3.967
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.030000000000002844,
+    "velocity": 7.754,
+    "current_theta": 57.3,
+    "previous_distance": 3.967,
+    "distance": 3.964
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.754,
+    "current_theta": 57.4,
+    "previous_distance": 3.964,
+    "distance": 3.961
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.753,
+    "current_theta": 57.5,
+    "previous_distance": 3.961,
+    "distance": 3.957
+  },
+  {
+    "delta_distance": -0.0029999999999996696,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.02999999999999627,
+    "velocity": 7.753,
+    "current_theta": 57.6,
+    "previous_distance": 3.957,
+    "distance": 3.954
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.753,
+    "current_theta": 57.7,
+    "previous_distance": 3.954,
+    "distance": 3.951
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.04000000000000231,
+    "velocity": 7.752,
+    "current_theta": 57.8,
+    "previous_distance": 3.951,
+    "distance": 3.947
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.752,
+    "current_theta": 57.9,
+    "previous_distance": 3.947,
+    "distance": 3.944
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.752,
+    "current_theta": 58.0,
+    "previous_distance": 3.944,
+    "distance": 3.94
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.751,
+    "current_theta": 58.1,
+    "previous_distance": 3.94,
+    "distance": 3.936
+  },
+  {
+    "delta_distance": -0.0030000000000001137,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03000000000000071,
+    "velocity": 7.751,
+    "current_theta": 58.2,
+    "previous_distance": 3.936,
+    "distance": 3.933
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.04000000000000231,
+    "velocity": 7.751,
+    "current_theta": 58.3,
+    "previous_distance": 3.933,
+    "distance": 3.929
+  },
+  {
+    "delta_distance": -0.010999999999999677,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1099999999999952,
+    "velocity": 7.751,
+    "current_theta": 58.4,
+    "previous_distance": 3.929,
+    "distance": 3.918
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.75,
+    "current_theta": 58.5,
+    "previous_distance": 3.918,
+    "distance": 3.914
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.75,
+    "current_theta": 58.6,
+    "previous_distance": 3.914,
+    "distance": 3.91
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.75,
+    "current_theta": 58.7,
+    "previous_distance": 3.91,
+    "distance": 3.906
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.04000000000000231,
+    "velocity": 7.749,
+    "current_theta": 58.8,
+    "previous_distance": 3.906,
+    "distance": 3.902
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.749,
+    "current_theta": 58.9,
+    "previous_distance": 3.902,
+    "distance": 3.898
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.749,
+    "current_theta": 59.0,
+    "previous_distance": 3.898,
+    "distance": 3.894
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.749,
+    "current_theta": 59.1,
+    "previous_distance": 3.894,
+    "distance": 3.89
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.748,
+    "current_theta": 59.2,
+    "previous_distance": 3.89,
+    "distance": 3.886
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.748,
+    "current_theta": 59.3,
+    "previous_distance": 3.886,
+    "distance": 3.875
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.748,
+    "current_theta": 59.4,
+    "previous_distance": 3.875,
+    "distance": 3.87
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.747,
+    "current_theta": 59.5,
+    "previous_distance": 3.87,
+    "distance": 3.866
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.03999999999999947,
+    "velocity": 7.747,
+    "current_theta": 59.6,
+    "previous_distance": 3.866,
+    "distance": 3.862
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.747,
+    "current_theta": 59.7,
+    "previous_distance": 3.862,
+    "distance": 3.857
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.04000000000000231,
+    "velocity": 7.746,
+    "current_theta": 59.8,
+    "previous_distance": 3.857,
+    "distance": 3.853
+  },
+  {
+    "delta_distance": -0.0050000000000003375,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05000000000000267,
+    "velocity": 7.746,
+    "current_theta": 59.9,
+    "previous_distance": 3.853,
+    "distance": 3.848
+  },
+  {
+    "delta_distance": -0.010999999999999677,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1099999999999952,
+    "velocity": 7.746,
+    "current_theta": 60.0,
+    "previous_distance": 3.848,
+    "distance": 3.837
+  },
+  {
+    "delta_distance": -0.0050000000000003375,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05000000000000267,
+    "velocity": 7.746,
+    "current_theta": 60.1,
+    "previous_distance": 3.837,
+    "distance": 3.832
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.745,
+    "current_theta": 60.2,
+    "previous_distance": 3.832,
+    "distance": 3.827
+  },
+  {
+    "delta_distance": -0.0040000000000000036,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.04000000000000231,
+    "velocity": 7.745,
+    "current_theta": 60.3,
+    "previous_distance": 3.827,
+    "distance": 3.823
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.745,
+    "current_theta": 60.4,
+    "previous_distance": 3.823,
+    "distance": 3.818
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.744,
+    "current_theta": 60.5,
+    "previous_distance": 3.818,
+    "distance": 3.813
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1199999999999984,
+    "velocity": 7.744,
+    "current_theta": 60.6,
+    "previous_distance": 3.813,
+    "distance": 3.801
+  },
+  {
+    "delta_distance": -0.0050000000000003375,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05000000000000267,
+    "velocity": 7.744,
+    "current_theta": 60.7,
+    "previous_distance": 3.801,
+    "distance": 3.796
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.05000000000000178,
+    "velocity": 7.744,
+    "current_theta": 60.8,
+    "previous_distance": 3.796,
+    "distance": 3.791
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.743,
+    "current_theta": 60.9,
+    "previous_distance": 3.791,
+    "distance": 3.786
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.743,
+    "current_theta": 61.0,
+    "previous_distance": 3.786,
+    "distance": 3.781
+  },
+  {
+    "delta_distance": -0.0050000000000003375,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05000000000000267,
+    "velocity": 7.743,
+    "current_theta": 61.1,
+    "previous_distance": 3.781,
+    "distance": 3.776
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1199999999999984,
+    "velocity": 7.742,
+    "current_theta": 61.2,
+    "previous_distance": 3.776,
+    "distance": 3.764
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.05000000000000178,
+    "velocity": 7.742,
+    "current_theta": 61.3,
+    "previous_distance": 3.764,
+    "distance": 3.759
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.742,
+    "current_theta": 61.4,
+    "previous_distance": 3.759,
+    "distance": 3.754
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05999999999999698,
+    "velocity": 7.741,
+    "current_theta": 61.5,
+    "previous_distance": 3.754,
+    "distance": 3.748
+  },
+  {
+    "delta_distance": -0.0050000000000003375,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05000000000000267,
+    "velocity": 7.741,
+    "current_theta": 61.6,
+    "previous_distance": 3.748,
+    "distance": 3.743
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1199999999999984,
+    "velocity": 7.741,
+    "current_theta": 61.7,
+    "previous_distance": 3.743,
+    "distance": 3.731
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.06000000000000125,
+    "velocity": 7.741,
+    "current_theta": 61.8,
+    "previous_distance": 3.731,
+    "distance": 3.725
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.74,
+    "current_theta": 61.9,
+    "previous_distance": 3.725,
+    "distance": 3.72
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06000000000000142,
+    "velocity": 7.74,
+    "current_theta": 62.0,
+    "previous_distance": 3.72,
+    "distance": 3.714
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1199999999999984,
+    "velocity": 7.74,
+    "current_theta": 62.1,
+    "previous_distance": 3.714,
+    "distance": 3.702
+  },
+  {
+    "delta_distance": -0.004999999999999893,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.049999999999998226,
+    "velocity": 7.739,
+    "current_theta": 62.2,
+    "previous_distance": 3.702,
+    "distance": 3.697
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.06000000000000569,
+    "velocity": 7.739,
+    "current_theta": 62.3,
+    "previous_distance": 3.697,
+    "distance": 3.691
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05999999999999698,
+    "velocity": 7.739,
+    "current_theta": 62.4,
+    "previous_distance": 3.691,
+    "distance": 3.685
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06000000000000142,
+    "velocity": 7.739,
+    "current_theta": 62.5,
+    "previous_distance": 3.685,
+    "distance": 3.679
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1199999999999984,
+    "velocity": 7.738,
+    "current_theta": 62.6,
+    "previous_distance": 3.679,
+    "distance": 3.667
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05999999999999698,
+    "velocity": 7.738,
+    "current_theta": 62.7,
+    "previous_distance": 3.667,
+    "distance": 3.661
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.06000000000000569,
+    "velocity": 7.738,
+    "current_theta": 62.8,
+    "previous_distance": 3.661,
+    "distance": 3.655
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05999999999999698,
+    "velocity": 7.737,
+    "current_theta": 62.9,
+    "previous_distance": 3.655,
+    "distance": 3.649
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.1199999999999984,
+    "velocity": 7.737,
+    "current_theta": 63.0,
+    "previous_distance": 3.649,
+    "distance": 3.637
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.07000000000000017,
+    "velocity": 7.737,
+    "current_theta": 63.1,
+    "previous_distance": 3.637,
+    "distance": 3.63
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.05999999999999698,
+    "velocity": 7.736,
+    "current_theta": 63.2,
+    "previous_distance": 3.63,
+    "distance": 3.624
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.12000000000000693,
+    "velocity": 7.736,
+    "current_theta": 63.3,
+    "previous_distance": 3.624,
+    "distance": 3.612
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06000000000000142,
+    "velocity": 7.736,
+    "current_theta": 63.4,
+    "previous_distance": 3.612,
+    "distance": 3.606
+  },
+  {
+    "delta_distance": -0.006999999999999673,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06999999999999573,
+    "velocity": 7.736,
+    "current_theta": 63.5,
+    "previous_distance": 3.606,
+    "distance": 3.599
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06000000000000142,
+    "velocity": 7.735,
+    "current_theta": 63.6,
+    "previous_distance": 3.599,
+    "distance": 3.593
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.12999999999999715,
+    "velocity": 7.735,
+    "current_theta": 63.7,
+    "previous_distance": 3.593,
+    "distance": 3.58
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.06000000000000569,
+    "velocity": 7.735,
+    "current_theta": 63.8,
+    "previous_distance": 3.58,
+    "distance": 3.574
+  },
+  {
+    "delta_distance": -0.006999999999999673,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06999999999999573,
+    "velocity": 7.734,
+    "current_theta": 63.9,
+    "previous_distance": 3.574,
+    "distance": 3.567
+  },
+  {
+    "delta_distance": -0.006000000000000227,
+    "delta_theta": 0.10000000000000142,
+    "proportion": -0.06000000000000142,
+    "velocity": 7.734,
+    "current_theta": 64.0,
+    "previous_distance": 3.567,
+    "distance": 3.561
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1300000000000064,
+    "velocity": 7.734,
+    "current_theta": 64.1,
+    "previous_distance": 3.561,
+    "distance": 3.548
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.0699999999999952,
+    "velocity": 7.734,
+    "current_theta": 64.2,
+    "previous_distance": 3.548,
+    "distance": 3.541
+  },
+  {
+    "delta_distance": -0.005999999999999783,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.06000000000000125,
+    "velocity": 7.733,
+    "current_theta": 64.3,
+    "previous_distance": 3.541,
+    "distance": 3.535
+  },
+  {
+    "delta_distance": -0.013000000000000345,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.12999999999999237,
+    "velocity": 7.733,
+    "current_theta": 64.4,
+    "previous_distance": 3.535,
+    "distance": 3.522
+  },
+  {
+    "delta_distance": -0.006999999999999673,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000071,
+    "velocity": 7.733,
+    "current_theta": 64.5,
+    "previous_distance": 3.522,
+    "distance": 3.515
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000516,
+    "velocity": 7.732,
+    "current_theta": 64.6,
+    "previous_distance": 3.515,
+    "distance": 3.508
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.11999999999998988,
+    "velocity": 7.732,
+    "current_theta": 64.7,
+    "previous_distance": 3.508,
+    "distance": 3.496
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000516,
+    "velocity": 7.732,
+    "current_theta": 64.8,
+    "previous_distance": 3.496,
+    "distance": 3.489
+  },
+  {
+    "delta_distance": -0.006999999999999673,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.06999999999999076,
+    "velocity": 7.731,
+    "current_theta": 64.9,
+    "previous_distance": 3.489,
+    "distance": 3.482
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000516,
+    "velocity": 7.731,
+    "current_theta": 65.0,
+    "previous_distance": 3.482,
+    "distance": 3.475
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1300000000000064,
+    "velocity": 7.731,
+    "current_theta": 65.1,
+    "previous_distance": 3.475,
+    "distance": 3.462
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.731,
+    "current_theta": 65.2,
+    "previous_distance": 3.462,
+    "distance": 3.454
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000516,
+    "velocity": 7.73,
+    "current_theta": 65.3,
+    "previous_distance": 3.454,
+    "distance": 3.447
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.12999999999998793,
+    "velocity": 7.73,
+    "current_theta": 65.4,
+    "previous_distance": 3.447,
+    "distance": 3.434
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000516,
+    "velocity": 7.73,
+    "current_theta": 65.5,
+    "previous_distance": 3.434,
+    "distance": 3.427
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.07000000000000516,
+    "velocity": 7.729,
+    "current_theta": 65.6,
+    "previous_distance": 3.427,
+    "distance": 3.42
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.12999999999998793,
+    "velocity": 7.729,
+    "current_theta": 65.7,
+    "previous_distance": 3.42,
+    "distance": 3.407
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.729,
+    "current_theta": 65.8,
+    "previous_distance": 3.407,
+    "distance": 3.399
+  },
+  {
+    "delta_distance": -0.007000000000000117,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.0699999999999952,
+    "velocity": 7.729,
+    "current_theta": 65.9,
+    "previous_distance": 3.399,
+    "distance": 3.392
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1300000000000064,
+    "velocity": 7.728,
+    "current_theta": 66.0,
+    "previous_distance": 3.392,
+    "distance": 3.379
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.728,
+    "current_theta": 66.1,
+    "previous_distance": 3.379,
+    "distance": 3.371
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.12999999999998793,
+    "velocity": 7.728,
+    "current_theta": 66.2,
+    "previous_distance": 3.371,
+    "distance": 3.358
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.727,
+    "current_theta": 66.3,
+    "previous_distance": 3.358,
+    "distance": 3.35
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.727,
+    "current_theta": 66.4,
+    "previous_distance": 3.35,
+    "distance": 3.342
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1300000000000064,
+    "velocity": 7.727,
+    "current_theta": 66.5,
+    "previous_distance": 3.342,
+    "distance": 3.329
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.726,
+    "current_theta": 66.6,
+    "previous_distance": 3.329,
+    "distance": 3.321
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.726,
+    "current_theta": 66.7,
+    "previous_distance": 3.321,
+    "distance": 3.313
+  },
+  {
+    "delta_distance": -0.013000000000000345,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.13000000000001083,
+    "velocity": 7.726,
+    "current_theta": 66.8,
+    "previous_distance": 3.313,
+    "distance": 3.3
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.726,
+    "current_theta": 66.9,
+    "previous_distance": 3.3,
+    "distance": 3.292
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1300000000000064,
+    "velocity": 7.725,
+    "current_theta": 67.0,
+    "previous_distance": 3.292,
+    "distance": 3.279
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.725,
+    "current_theta": 67.1,
+    "previous_distance": 3.279,
+    "distance": 3.271
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.725,
+    "current_theta": 67.2,
+    "previous_distance": 3.271,
+    "distance": 3.263
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.14000000000000587,
+    "velocity": 7.724,
+    "current_theta": 67.3,
+    "previous_distance": 3.263,
+    "distance": 3.249
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.724,
+    "current_theta": 67.4,
+    "previous_distance": 3.249,
+    "distance": 3.241
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.724,
+    "current_theta": 67.5,
+    "previous_distance": 3.241,
+    "distance": 3.233
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.724,
+    "current_theta": 67.6,
+    "previous_distance": 3.233,
+    "distance": 3.219
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.723,
+    "current_theta": 67.7,
+    "previous_distance": 3.219,
+    "distance": 3.211
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.14000000000000587,
+    "velocity": 7.723,
+    "current_theta": 67.8,
+    "previous_distance": 3.211,
+    "distance": 3.197
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.07999999999999324,
+    "velocity": 7.723,
+    "current_theta": 67.9,
+    "previous_distance": 3.197,
+    "distance": 3.189
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.722,
+    "current_theta": 68.0,
+    "previous_distance": 3.189,
+    "distance": 3.181
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.722,
+    "current_theta": 68.1,
+    "previous_distance": 3.181,
+    "distance": 3.167
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.0899999999999913,
+    "velocity": 7.722,
+    "current_theta": 68.2,
+    "previous_distance": 3.167,
+    "distance": 3.158
+  },
+  {
+    "delta_distance": -0.0129999999999999,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1300000000000064,
+    "velocity": 7.721,
+    "current_theta": 68.3,
+    "previous_distance": 3.158,
+    "distance": 3.145
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.0899999999999913,
+    "velocity": 7.721,
+    "current_theta": 68.4,
+    "previous_distance": 3.145,
+    "distance": 3.136
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.721,
+    "current_theta": 68.5,
+    "previous_distance": 3.136,
+    "distance": 3.122
+  },
+  {
+    "delta_distance": -0.008000000000000007,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.08000000000000462,
+    "velocity": 7.721,
+    "current_theta": 68.6,
+    "previous_distance": 3.122,
+    "distance": 3.114
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.0899999999999913,
+    "velocity": 7.72,
+    "current_theta": 68.7,
+    "previous_distance": 3.114,
+    "distance": 3.105
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.14000000000000587,
+    "velocity": 7.72,
+    "current_theta": 68.8,
+    "previous_distance": 3.105,
+    "distance": 3.091
+  },
+  {
+    "delta_distance": -0.009000000000000341,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.08999999999999574,
+    "velocity": 7.72,
+    "current_theta": 68.9,
+    "previous_distance": 3.091,
+    "distance": 3.082
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.14000000000000587,
+    "velocity": 7.719,
+    "current_theta": 69.0,
+    "previous_distance": 3.082,
+    "distance": 3.068
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.09000000000000409,
+    "velocity": 7.719,
+    "current_theta": 69.1,
+    "previous_distance": 3.068,
+    "distance": 3.059
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.1399999999999904,
+    "velocity": 7.719,
+    "current_theta": 69.2,
+    "previous_distance": 3.059,
+    "distance": 3.045
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.09000000000000409,
+    "velocity": 7.719,
+    "current_theta": 69.3,
+    "previous_distance": 3.045,
+    "distance": 3.036
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.1399999999999904,
+    "velocity": 7.718,
+    "current_theta": 69.4,
+    "previous_distance": 3.036,
+    "distance": 3.022
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.09000000000000409,
+    "velocity": 7.718,
+    "current_theta": 69.5,
+    "previous_distance": 3.022,
+    "distance": 3.013
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.09000000000000409,
+    "velocity": 7.718,
+    "current_theta": 69.6,
+    "previous_distance": 3.013,
+    "distance": 3.004
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.13999999999998597,
+    "velocity": 7.717,
+    "current_theta": 69.7,
+    "previous_distance": 3.004,
+    "distance": 2.99
+  },
+  {
+    "delta_distance": -0.009000000000000341,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.09000000000000853,
+    "velocity": 7.717,
+    "current_theta": 69.8,
+    "previous_distance": 2.99,
+    "distance": 2.981
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.13999999999998597,
+    "velocity": 7.717,
+    "current_theta": 69.9,
+    "previous_distance": 2.981,
+    "distance": 2.967
+  },
+  {
+    "delta_distance": -0.010000000000000231,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.100000000000008,
+    "velocity": 7.716,
+    "current_theta": 70.0,
+    "previous_distance": 2.967,
+    "distance": 2.957
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.14000000000000587,
+    "velocity": 7.716,
+    "current_theta": 70.1,
+    "previous_distance": 2.957,
+    "distance": 2.943
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.0899999999999913,
+    "velocity": 7.716,
+    "current_theta": 70.2,
+    "previous_distance": 2.943,
+    "distance": 2.934
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.716,
+    "current_theta": 70.3,
+    "previous_distance": 2.934,
+    "distance": 2.92
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.09999999999998935,
+    "velocity": 7.715,
+    "current_theta": 70.4,
+    "previous_distance": 2.92,
+    "distance": 2.91
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.715,
+    "current_theta": 70.5,
+    "previous_distance": 2.91,
+    "distance": 2.896
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.10000000000000356,
+    "velocity": 7.715,
+    "current_theta": 70.6,
+    "previous_distance": 2.896,
+    "distance": 2.886
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.1399999999999904,
+    "velocity": 7.714,
+    "current_theta": 70.7,
+    "previous_distance": 2.886,
+    "distance": 2.872
+  },
+  {
+    "delta_distance": -0.008999999999999897,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.09000000000000409,
+    "velocity": 7.714,
+    "current_theta": 70.8,
+    "previous_distance": 2.872,
+    "distance": 2.863
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.714,
+    "current_theta": 70.9,
+    "previous_distance": 2.863,
+    "distance": 2.848
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.10000000000000356,
+    "velocity": 7.714,
+    "current_theta": 71.0,
+    "previous_distance": 2.848,
+    "distance": 2.838
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.713,
+    "current_theta": 71.1,
+    "previous_distance": 2.838,
+    "distance": 2.824
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.09999999999998935,
+    "velocity": 7.713,
+    "current_theta": 71.2,
+    "previous_distance": 2.824,
+    "distance": 2.814
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.713,
+    "current_theta": 71.3,
+    "previous_distance": 2.814,
+    "distance": 2.8
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.09999999999998935,
+    "velocity": 7.712,
+    "current_theta": 71.4,
+    "previous_distance": 2.8,
+    "distance": 2.79
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.712,
+    "current_theta": 71.5,
+    "previous_distance": 2.79,
+    "distance": 2.776
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.10000000000000356,
+    "velocity": 7.712,
+    "current_theta": 71.6,
+    "previous_distance": 2.776,
+    "distance": 2.766
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.711,
+    "current_theta": 71.7,
+    "previous_distance": 2.766,
+    "distance": 2.751
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.10000000000000356,
+    "velocity": 7.711,
+    "current_theta": 71.8,
+    "previous_distance": 2.751,
+    "distance": 2.741
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.1399999999999904,
+    "velocity": 7.711,
+    "current_theta": 71.9,
+    "previous_distance": 2.741,
+    "distance": 2.727
+  },
+  {
+    "delta_distance": -0.010999999999999677,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000303,
+    "velocity": 7.711,
+    "current_theta": 72.0,
+    "previous_distance": 2.727,
+    "distance": 2.716
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.71,
+    "current_theta": 72.1,
+    "previous_distance": 2.716,
+    "distance": 2.702
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.10999999999999183,
+    "velocity": 7.71,
+    "current_theta": 72.2,
+    "previous_distance": 2.702,
+    "distance": 2.691
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.14000000000000587,
+    "velocity": 7.71,
+    "current_theta": 72.3,
+    "previous_distance": 2.691,
+    "distance": 2.677
+  },
+  {
+    "delta_distance": -0.010000000000000231,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.09999999999999379,
+    "velocity": 7.709,
+    "current_theta": 72.4,
+    "previous_distance": 2.677,
+    "distance": 2.667
+  },
+  {
+    "delta_distance": -0.01499999999999968,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000532,
+    "velocity": 7.709,
+    "current_theta": 72.5,
+    "previous_distance": 2.667,
+    "distance": 2.652
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000976,
+    "velocity": 7.709,
+    "current_theta": 72.6,
+    "previous_distance": 2.652,
+    "distance": 2.637
+  },
+  {
+    "delta_distance": -0.010000000000000231,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.09999999999999379,
+    "velocity": 7.709,
+    "current_theta": 72.7,
+    "previous_distance": 2.637,
+    "distance": 2.627
+  },
+  {
+    "delta_distance": -0.01499999999999968,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000532,
+    "velocity": 7.708,
+    "current_theta": 72.8,
+    "previous_distance": 2.627,
+    "distance": 2.612
+  },
+  {
+    "delta_distance": -0.010000000000000231,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.09999999999999379,
+    "velocity": 7.708,
+    "current_theta": 72.9,
+    "previous_distance": 2.612,
+    "distance": 2.602
+  },
+  {
+    "delta_distance": -0.01499999999999968,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000532,
+    "velocity": 7.708,
+    "current_theta": 73.0,
+    "previous_distance": 2.602,
+    "distance": 2.587
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.707,
+    "current_theta": 73.1,
+    "previous_distance": 2.587,
+    "distance": 2.576
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.707,
+    "current_theta": 73.2,
+    "previous_distance": 2.576,
+    "distance": 2.561
+  },
+  {
+    "delta_distance": -0.009999999999999787,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.10000000000000356,
+    "velocity": 7.707,
+    "current_theta": 73.3,
+    "previous_distance": 2.561,
+    "distance": 2.551
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.706,
+    "current_theta": 73.4,
+    "previous_distance": 2.551,
+    "distance": 2.536
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000976,
+    "velocity": 7.706,
+    "current_theta": 73.5,
+    "previous_distance": 2.536,
+    "distance": 2.521
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.706,
+    "current_theta": 73.6,
+    "previous_distance": 2.521,
+    "distance": 2.51
+  },
+  {
+    "delta_distance": -0.01499999999999968,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.149999999999984,
+    "velocity": 7.706,
+    "current_theta": 73.7,
+    "previous_distance": 2.51,
+    "distance": 2.495
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.705,
+    "current_theta": 73.8,
+    "previous_distance": 2.495,
+    "distance": 2.484
+  },
+  {
+    "delta_distance": -0.01399999999999979,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.13999999999998597,
+    "velocity": 7.705,
+    "current_theta": 73.9,
+    "previous_distance": 2.484,
+    "distance": 2.47
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.12000000000000693,
+    "velocity": 7.705,
+    "current_theta": 74.0,
+    "previous_distance": 2.47,
+    "distance": 2.458
+  },
+  {
+    "delta_distance": -0.014000000000000234,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.1400000000000103,
+    "velocity": 7.704,
+    "current_theta": 74.1,
+    "previous_distance": 2.458,
+    "distance": 2.444
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.704,
+    "current_theta": 74.2,
+    "previous_distance": 2.444,
+    "distance": 2.429
+  },
+  {
+    "delta_distance": -0.010999999999999677,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000303,
+    "velocity": 7.704,
+    "current_theta": 74.3,
+    "previous_distance": 2.429,
+    "distance": 2.418
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.704,
+    "current_theta": 74.4,
+    "previous_distance": 2.418,
+    "distance": 2.403
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.12000000000000693,
+    "velocity": 7.703,
+    "current_theta": 74.5,
+    "previous_distance": 2.403,
+    "distance": 2.391
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000976,
+    "velocity": 7.703,
+    "current_theta": 74.6,
+    "previous_distance": 2.391,
+    "distance": 2.376
+  },
+  {
+    "delta_distance": -0.01499999999999968,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.149999999999984,
+    "velocity": 7.703,
+    "current_theta": 74.7,
+    "previous_distance": 2.376,
+    "distance": 2.361
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.702,
+    "current_theta": 74.8,
+    "previous_distance": 2.361,
+    "distance": 2.35
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.702,
+    "current_theta": 74.9,
+    "previous_distance": 2.35,
+    "distance": 2.335
+  },
+  {
+    "delta_distance": -0.01200000000000001,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.12000000000000693,
+    "velocity": 7.702,
+    "current_theta": 75.0,
+    "previous_distance": 2.335,
+    "distance": 2.323
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.15000000000000976,
+    "velocity": 7.701,
+    "current_theta": 75.1,
+    "previous_distance": 2.323,
+    "distance": 2.308
+  },
+  {
+    "delta_distance": -0.01499999999999968,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.149999999999984,
+    "velocity": 7.701,
+    "current_theta": 75.2,
+    "previous_distance": 2.308,
+    "distance": 2.293
+  },
+  {
+    "delta_distance": -0.01100000000000012,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000747,
+    "velocity": 7.701,
+    "current_theta": 75.3,
+    "previous_distance": 2.293,
+    "distance": 2.282
+  },
+  {
+    "delta_distance": -0.015000000000000124,
+    "delta_theta": 0.10000000000000853,
+    "proportion": -0.14999999999998845,
+    "velocity": 7.701,
+    "current_theta": 75.4,
+    "previous_distance": 2.282,
+    "distance": 2.267
+  },
+  {
+    "delta_distance": -0.016000000000000014,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.16000000000000925,
+    "velocity": 7.7,
+    "current_theta": 75.5,
+    "previous_distance": 2.267,
+    "distance": 2.251
+  },
+  {
+    "delta_distance": -0.010999999999999677,
+    "delta_theta": 0.09999999999999432,
+    "proportion": -0.11000000000000303,
+    "velocity": 7.7,
+    "current_theta": 75.6,
+    "previous_distance": 2.251,
+    "distance": 2.24
+  }
+]
